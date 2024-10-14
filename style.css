@@ -55,3 +55,36 @@ body
     background-color: #333;
     color: #fff;
 }
+
+footer 
+{
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+footer i {
+    display: flex;
+    justify-content: left;  /* Center horizontally, change as needed */
+    align-items: center;  /* Center vertically */
+    padding: 10px;  /* Add padding to ensure enough space around content */
+    font-size: 30px;
+    
+}
+
+#cr {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 20px;
+}
