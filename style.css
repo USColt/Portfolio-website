@@ -90,6 +90,16 @@ footer i {
     color: #fff;
 }
 
+footer a {
+    text-decoration: none; /* Remove underline from the links */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+}
+
+footer a:hover i {
+    color: #04AA6D; /* Change icon color on hover */
+    transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+
 #cr {
     display: flex;
     align-items: center;
