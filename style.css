@@ -12,6 +12,8 @@
     justify-content: space-around; /* Adds even spacing around the links */
     align-items: center;
     width: 100%; /* Ensure the navbar covers the full width */
+    border: 2px solid #fff; /* thin white border */
+    border-radius: 20px; /* rounded corners */
 }
 
 /* Styling for the links inside of the navbar */
