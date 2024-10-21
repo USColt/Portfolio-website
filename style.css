@@ -42,22 +42,31 @@
     color: white;
 }
 
-/* Resizing the otherwise gigantic photo */
-.photo1 
-{
-    height: 200px;
-    width: auto;
+/* Apply Flexbox to the container that holds both image and text */
+.content-container {
+    display: flex; /* Align the image and text side by side */
+    align-items: center; /* Center the image and text vertically */
+    margin: 50px; /* Adjust the space around the content */
+}
+
+/* Container for the image */
+.image-container {
+    margin-right: 20px; /* Space between the image and the text */
+}
+
+/* Resizing the image */
+#photo1 {
+    height: 500px; /* Adjust the size as needed */
+    width: auto; /* Maintain aspect ratio */
 }
 
 /* Body styling */
-body 
-{
+body {
     background-color: #333;
     color: #fff;
 }
 
-footer 
-{
+footer {
     background-color: black;
     color: #fff;
     position: absolute;
@@ -70,17 +79,15 @@ footer
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
-
 }
 
 footer i {
     display: flex;
-    justify-content: left;  /* Center horizontally, change as needed */
-    align-items: center;  /* Center vertically */
-    padding: 10px;  /* Add padding to ensure enough space around content */
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
     font-size: 30px;
     color: #fff;
-    
 }
 
 #cr {
