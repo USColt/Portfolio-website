@@ -79,6 +79,8 @@ footer {
     align-items: center;
     padding: 10px;
     box-sizing: border-box;
+    border: 2px solid #fff; /* Add a thin white border */
+    border-radius: 10px; /* Optional: Rounded corners for a smoother look */
 }
 
 footer i {
