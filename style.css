@@ -65,6 +65,7 @@
 /* Body styling */
 body {
     background-image: url(img/bodybg.png);
+    background-size: cover;
     color: #fff;
 }
 
