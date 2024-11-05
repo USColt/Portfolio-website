@@ -65,7 +65,7 @@
 /* Body styling */
 body {
     background-image: url(img/bodybg.png);
-    background-size: cover;
+    min height: 100vh;
     color: #fff;
 }
 
