@@ -64,12 +64,12 @@
 
 /* Body styling */
 body {
-    background-color: #333;
+    background-image: url(img/bodybg.png);
     color: #fff;
 }
 
 footer {
-    background-color: black;
+    background-color: #333;
     color: #fff;
     position: absolute;
     bottom: 0;
@@ -110,3 +110,24 @@ footer a:hover i {
     margin: 0;
     margin-right: 20px;
 }
+
+.text-container {
+    position: relative;
+    padding: 20px;
+    color: #fff;
+    z-index: 1;
+}
+
+.text-container::before {
+    content: ""; /* Adds a blank element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black; /* Or any color of your choice */
+    opacity: 0.3; /* Adjusts transparency */
+    z-index: -1; /* Positions the background behind the text */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
