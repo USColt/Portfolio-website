@@ -56,10 +56,31 @@
     margin-right: 20px; /* Space between the image and the text */
 }
 
-/* Resizing the image */
-#photo1 {
-    height: 500px; /* Adjust the size as needed */
-    width: auto; /* Maintain aspect ratio */
+/* sideimage on about section */
+.sideimage {
+    position: absolute;
+    left: 5%;
+    top: 55%
+}
+
+.sideimage2 {
+    position: absolute;
+    right: 2%;
+    top: 60%
+}
+
+.sideimg {
+    float: right;
+    height: 30vh;
+    width: auto;
+    border-radius: 20px;
+}
+
+.sideimg2 {
+    height: 25vh;
+    width: auto;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 /* Body styling */
